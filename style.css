@@ -117,3 +117,14 @@ div.wrapper form .signup-link a:hover {
     text-decoration: underline;
 }
 
+
+div.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 13px;
+    color: #fff;
+}
