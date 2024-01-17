@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+body {
+    background-color: #b45353;
+    overflow: hidden;
+}
+
+div.container {
+max-width: 440px;
+padding: 0 20px;
+margin: 170px auto;
+}
+
+div.wrapper {
+    width: 380px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+div.wrapper .title {
+    line-height: 90px;
+    background-color: rgb(199, 87, 106);
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+div.wrapper form {
+    padding: 30px 25px 25px 25px;
+}
+
+div.wrapper form .row {
+    height: 45px;
+    margin-bottom: 15px;;
+    position: relative;
+}
+
+div.wrapper form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid rgb(189, 18, 18);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+form .row input:focus { 
+    border-color:rgb(216, 152, 163);
+    box-shadow: inset 0px 0px 2px 2px rgba(226, 65, 92, 0.25);
+}
+
+div.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background-color:#b45353;
+    border: 1px solid #b45353;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.wrapper form .pass {
+    margin: 5px 0 20px 0;
+}
+
+div.wrapper form .pass a {
+    color: #b45353;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+div.wrapper form .pass a:hover {
+    text-decoration: underline;
+}
+
+div.wrapper form .button input{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 0px;
+    background-color: #b45353;
+    border: 1px solid #b45353;
+    cursor: pointer;
+}
+
+div.wrapper form .button input:hover {
+    background-color:rgb(216, 152, 163);
+}
+
+
+div.wrapper form .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+div.wrapper form .signup-link a {
+    color: #b45353;
+    text-decoration: none;
+}
+
+div.wrapper form .signup-link a:hover {
+    text-decoration: underline;
+}
+
